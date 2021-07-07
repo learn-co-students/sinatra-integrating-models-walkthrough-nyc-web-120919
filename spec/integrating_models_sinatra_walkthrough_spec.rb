@@ -1,5 +1,7 @@
 describe App do
 
+  require_relative "../models/text_analyzer.rb"
+
   describe 'GET /' do
     it 'sends a 200 status code' do
       get '/'
